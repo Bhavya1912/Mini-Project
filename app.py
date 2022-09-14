@@ -1,6 +1,7 @@
 import os
 import gradio as gr
 
+
 print(os.popen(f'cat /etc/debian_version').read())
 print(os.popen(f'cat /etc/issue').read())
 print(os.popen(f'apt search tesseract').read())
